@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="web3.js"></script>
+    <script>
+        //var Web3 = require('web3');
+        var web3 = new Web3();
+        web3.setProvider(new web3.providers.HttpProvider('HTTP://10.211.55.2:7545'));
+        var coinbase = web3.eth.coinbase;
+        alert(coinbase);
+
+        web3.eth.defaultAccount = web3.eth.accounts[0];
+        alert(web3.eth.defaultAccount);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

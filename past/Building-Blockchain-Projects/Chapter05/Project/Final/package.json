@@ -1,0 +1,13 @@
+{
+	"name": "chapter5-building-blockchain-projects",
+	"dependencies": {
+		"application": "^0.1.4",
+		"events": "^2.0.0",
+		"express": "^4.14.0",
+		"module": "^1.2.5",
+		"net": "^1.0.2",
+		"npm": "^5.7.1",
+		"util": "^0.10.3",
+		"web3": "0.16.0"
+	}
+}
